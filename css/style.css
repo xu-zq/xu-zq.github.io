@@ -1,0 +1,31 @@
+@charset "utf-8";
+html,body {
+	height: 100%;
+}
+#aside {
+	width: 40px;
+	height: 100%;
+	background-color: rgba(0,0,0,0.9);
+	position: fixed;
+}
+#aside a {
+	display: block;
+	height: 15px;
+	margin: 27px 12px;
+	background-color: rgba(255,255,255,0.20);
+	border-radius: 8px;
+	transition: background-color 0.3s;
+	-webkit-transition: background-color 0.3s;
+}
+#aside .this-page a {
+	background-color: rgba(255,255,255,0.30);
+}
+#aside a:hover {
+	background-color: rgba(255,255,255,0.35);
+}
+#view-container {
+	margin-left: 40px;
+	height: 100%;
+	background-color: #666;
+}
+/* CSS Document */
